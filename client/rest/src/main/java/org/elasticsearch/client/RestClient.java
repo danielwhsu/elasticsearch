@@ -104,7 +104,7 @@ import static java.util.Collections.singletonList;
  */
 public class RestClient implements Closeable {
 
-    private static final Log logger = LogFactory.getLog(RestClient.class);
+    private static final Log logger = LogFactory.getLog(RestClient.class);//
 
     private final CloseableHttpAsyncClient client;
     // We don't rely on default headers supported by HttpAsyncClient as those cannot be replaced.
